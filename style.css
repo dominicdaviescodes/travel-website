@@ -79,10 +79,19 @@ nav ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #fff;
   min-height: 90vh;
+  text-align: center;
+  /* flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.hero h3 {
+  padding: 5rem;
+}
 
 
 
