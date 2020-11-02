@@ -16,7 +16,11 @@ h1 {
   font-size: 2.6rem;
 }
 
-li, button, label, input, p {
+li,
+button,
+label,
+input,
+p {
   font-size: 2rem;
 }
 
@@ -28,6 +32,56 @@ h3 {
   font-size: 3rem;
 }
 
-h4,h5 {
+h4,
+h5 {
   font-size: 2.8rem;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*  End of global styles */
+
+/* Nav section with HERO */
+
+.main-head {
+  background-color: #131c27;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  min-height: 10vh;
+  padding: 2rem;
+  width: 90%;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+#logo {
+  flex: 2 1 40rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* End of Nav section with HERO */
