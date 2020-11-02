@@ -58,8 +58,8 @@ button {
 
 /*  End of global styles */
 
-/* Nav section with HERO */
 
+/* Nav section with HERO */
 .main-head {
   background-color: #131c27;
   color: #fff;
@@ -84,9 +84,9 @@ nav ul {
 
 #logo {
   flex: 2 1 40rem;
-
+  font-family: 'Pattaya', sans-serif;
+  font-weight: 400;
 }
-
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url('./img/landing-page.jpg');
