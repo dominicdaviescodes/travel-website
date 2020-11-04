@@ -114,20 +114,6 @@ nav ul {
 }
 
 
-@media screen and (max-width: 952px) {
-  html {
-    font-size: 45%;
-  }
-
-  nav {
-    text-align: center;
-  }
-
-  #logo {
-    padding: 2rem;
-  }
-}
-
 /* End of Nav section with HERO */
 
 /*  location section  */
@@ -206,3 +192,31 @@ nav ul {
 
 
 /* End of location section  */
+
+
+@media screen and (max-width: 952px) {
+  html {
+    font-size: 45%;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  #logo {
+    padding: 2rem;
+  }
+
+  .cloud {
+    height: 40rem;
+  }
+
+  .moving-cloud-1 {
+    z-index: -1;
+  }
+
+  .moving-cloud-2 {
+    top: 10%;
+    z-index: -2;
+  }
+}
