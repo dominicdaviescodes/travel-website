@@ -263,10 +263,10 @@ nav ul {
 }
 
 .form-wrapper {
-  background:rgba(19,28,39,0.8);
+  background: rgba(19, 28, 39, 0.8);
   border-radius: 20px;
   color: #fff;
-  width: 40%;
+  width: 50%;
 }
 
 .form-head {
@@ -278,10 +278,11 @@ nav ul {
   font-weight: normal;
 }
 
-.name-form, .email-form {
+.name-form,
+.email-form {
   padding: 3rem;
   text-align: center;
-  
+
 }
 
 .form-wrapper label {
@@ -308,6 +309,38 @@ nav ul {
 
 
 /* End of Contact section  */
+
+/* Footer section */
+
+footer {
+  background: rgba(19, 28, 39, 1);
+  color: #fff;
+}
+
+.footer-wrapper {
+  align-items: center;
+  padding: 2rem;
+  margin: auto;
+  min-height: 10vh;
+  width: 90%;
+  /* flex */
+  display: flex;
+}
+
+footer h5 {
+  font-weight: normal;
+  /* flex */
+  flex: 1 1 40rem;
+}
+
+footer ul {
+  list-style: none;
+  /* flex */
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 @media screen and (max-width: 952px) {
@@ -344,5 +377,9 @@ nav ul {
     color: #000;
     padding: 0 0 0 5px;
     -webkit-text-fill-color: #131c27;
+  }
+
+  .form-wrapper {
+    width: 75%;
   }
 }
