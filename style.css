@@ -252,8 +252,61 @@ nav ul {
 
 /*  Contact section  */
 #contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(./img/contact-mountain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  /* flex */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background:rgba(19,28,39,0.8);
+  border-radius: 20px;
+  color: #fff;
+  width: 40%;
+}
+
+.form-head {
+  padding: 4rem;
+  text-align: center;
+}
+
+.form-head h2 {
+  font-weight: normal;
+}
+
+.name-form, .email-form {
+  padding: 3rem;
+  text-align: center;
   
 }
+
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+
+.form-wrapper button {
+  background: #121C27;
+  margin-top: 8rem;
+  padding: 2rem;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.form-wrapper input {
+  background: #333B45;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-left: 4rem;
+  padding: 1rem 3rem;
+  width: 50%;
+}
+
+
 /* End of Contact section  */
 
 
