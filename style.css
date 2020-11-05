@@ -248,19 +248,13 @@ nav ul {
   max-width: 25%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* End of Benefits section  */
 
+/*  Contact section  */
+#contact {
+  
+}
+/* End of Contact section  */
 
 
 @media screen and (max-width: 952px) {
